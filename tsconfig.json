@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "commonjs",                    
+    "lib": ["es6"],                     
+    "allowJs": true,
+    "outDir": "server/game/",
+    
+    "strict": true,         
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "types": ["node"]
+    
+  },
+  "compileOnSave": true,
+  "include":[
+    "server/game_src/properties",
+    "server/game_src/serverInstance"
+  ],
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+   
+  ]
+  
+}
